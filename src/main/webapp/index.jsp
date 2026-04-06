@@ -1,0 +1,15 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+
+    <h2>Bienvenue</h2>
+
+    <!-- Lien vers la page login -->
+    <a href="login.jsp">Aller au Login</a>
+
+</body>
+</html>
