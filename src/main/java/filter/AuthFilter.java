@@ -18,17 +18,16 @@ public class AuthFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) request;
         HttpServletResponse res = (HttpServletResponse) response;
 
-        // récupérer session
+      
         HttpSession session = req.getSession(false);
 
-        // vérifier login
         if (session != null && session.getAttribute("userEmail") != null) {
 
-            // user connecté → continuer
+            
             chain.doFilter(request, response);
 
         } else {
-            // user non connecté → redirect login
+            
             res.sendRedirect("login.jsp");
         }
     }
