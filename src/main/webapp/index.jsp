@@ -8,7 +8,7 @@
 
     <h2>Bienvenue</h2>
 
-    <!-- Lien vers la page login -->
+  
     <a href="login.jsp">Aller au Login</a>
 
 </body>
