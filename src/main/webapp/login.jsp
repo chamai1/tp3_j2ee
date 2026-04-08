@@ -8,7 +8,7 @@
 
     <h2>Login</h2>
 
-    <!-- Message d'erreur si login incorrect -->
+   
     <%
         String error = request.getParameter("error");
         if (error != null) {
@@ -18,7 +18,7 @@
         }
     %>
 
-    <!-- Formulaire de connexion -->
+   
     <form action="login" method="post">
         Email: <input type="text" name="email"><br><br>
         Password: <input type="password" name="password"><br><br>
